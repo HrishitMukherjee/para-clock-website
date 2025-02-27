@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARA Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <img src="images/para-logo.png" alt="PARA Logo" class="para-logo">
+        <h1>Indian Standard Time (IST)</h1>
+        <div class="analog-clock">
+            <div class="clock-face">
+                <!-- Clock Digits -->
+                <span class="digit digit12">12</span>
+                <span class="digit digit3">3</span>
+                <span class="digit digit6">6</span>
+                <span class="digit digit9">9</span>
+                <span class="digit digit1">1</span>
+                <span class="digit digit2">2</span>
+                <span class="digit digit4">4</span>
+                <span class="digit digit5">5</span>
+                <span class="digit digit7">7</span>
+                <span class="digit digit8">8</span>
+                <span class="digit digit10">10</span>
+                <span class="digit digit11">11</span>
+
+                <div class="hand hour-hand"></div>
+                <div class="hand minute-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+        </div>
+        <div class="digital-time" id="digital-time">00:00:00</div>
+        <div class="current-date" id="current-date">28 Feb 2025</div>
+	<div class="current-day">Friday</div>
+
+        <button class="toggle-mode-btn" onclick="toggleLightMode()">Toggle Light Mode</button>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
